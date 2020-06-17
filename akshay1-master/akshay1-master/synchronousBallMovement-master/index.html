@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+      <script src="js/Form.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Game.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+    apiKey: "AIzaSyCu1hXl0ekrTIk0VCyhMf9Q4621tbMyRGc",
+    authDomain: "car-racing-game-e4954.firebaseapp.com",
+    databaseURL: "https://car-racing-game-e4954.firebaseio.com",
+    projectId: "car-racing-game-e4954",
+    storageBucket: "car-racing-game-e4954.appspot.com",
+    messagingSenderId: "719459600761",
+    appId: "1:719459600761:web:81273f7c372d3cb7ab07a8"
+  };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
